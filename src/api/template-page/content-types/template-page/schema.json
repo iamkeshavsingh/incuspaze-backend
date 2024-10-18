@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "template_pages",
+  "info": {
+    "singularName": "template-page",
+    "pluralName": "template-pages",
+    "displayName": "Template Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}
