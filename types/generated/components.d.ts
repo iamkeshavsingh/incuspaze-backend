@@ -14,6 +14,7 @@ export interface SharedSocialMedia extends Schema.Component {
   collectionName: 'components_shared_social_medias';
   info: {
     displayName: 'Social Media';
+    description: '';
   };
   attributes: {
     media: Attribute.Component<'shared.icon-title', true>;
@@ -76,10 +77,12 @@ export interface SharedImageTitle extends Schema.Component {
   collectionName: 'components_shared_image_titles';
   info: {
     displayName: 'ImageTitle';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    image_url: Attribute.Text;
   };
 }
 
@@ -87,11 +90,13 @@ export interface SharedIconTitle extends Schema.Component {
   collectionName: 'components_shared_icon_titles';
   info: {
     displayName: 'IconTitle';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    url: Attribute.String;
+    link_url: Attribute.String;
+    image_url: Attribute.Text;
   };
 }
 
@@ -134,12 +139,14 @@ export interface SectionsSection extends Schema.Component {
   collectionName: 'components_sections_sections';
   info: {
     displayName: 'Section';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     content: Attribute.Component<'shared.content'>;
     images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
     buttons: Attribute.Component<'shared.button', true>;
+    image_url: Attribute.Text;
   };
 }
 
@@ -169,12 +176,14 @@ export interface SectionsHero extends Schema.Component {
   collectionName: 'components_sections_heroes';
   info: {
     displayName: 'Hero';
+    description: '';
   };
   attributes: {
     title: Attribute.String;
     content: Attribute.Component<'shared.content'>;
     image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     buttons: Attribute.Component<'shared.button', true>;
+    image_url: Attribute.Text;
   };
 }
 
@@ -224,6 +233,7 @@ export interface SectionsBasicCard extends Schema.Component {
     content: Attribute.Text;
     cta_text: Attribute.String;
     cta_url: Attribute.String;
+    image_url: Attribute.Text;
   };
 }
 

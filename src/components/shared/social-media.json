@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_social_medias",
   "info": {
-    "displayName": "Social Media"
+    "displayName": "Social Media",
+    "description": ""
   },
   "options": {},
   "attributes": {

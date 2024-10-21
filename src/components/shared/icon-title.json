@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_icon_titles",
   "info": {
-    "displayName": "IconTitle"
+    "displayName": "IconTitle",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,17 +10,21 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "url": {
+    "link_url": {
       "type": "string"
+    },
+    "image_url": {
+      "type": "text"
     }
   }
 }

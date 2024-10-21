@@ -42,6 +42,9 @@
     },
     "cta_url": {
       "type": "string"
+    },
+    "image_url": {
+      "type": "text"
     }
   }
 }
