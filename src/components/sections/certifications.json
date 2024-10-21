@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_certifications",
+  "info": {
+    "displayName": "Certifications"
+  },
+  "options": {},
+  "attributes": {
+    "certificate": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.image-title"
+    }
+  }
+}

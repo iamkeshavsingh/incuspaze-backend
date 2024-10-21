@@ -1142,19 +1142,20 @@ export interface ApiBlogBlog extends Schema.CollectionType {
     title: Attribute.String;
     slug: Attribute.UID<'api::blog.blog', 'title'>;
     seo: Attribute.Component<'shared.seo'>;
+    description: Attribute.Text;
+    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     content: Attribute.RichText;
-    blog_category: Attribute.Relation<
+    category: Attribute.Relation<
       'api::blog.blog',
       'oneToOne',
       'api::blog-category.blog-category'
     >;
-    blog_tags: Attribute.Relation<
+    tags: Attribute.Relation<
       'api::blog.blog',
       'oneToMany',
       'api::blog-tag.blog-tag'
     >;
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    thumbnail: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     author: Attribute.Relation<
       'api::blog.blog',
       'oneToOne',
@@ -1238,12 +1239,15 @@ export interface ApiFooterFooter extends Schema.SingleType {
     singularName: 'footer';
     pluralName: 'footers';
     displayName: 'Footer';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     logo: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    content: Attribute.Component<'shared.content'>;
+    cta: Attribute.Component<'shared.button', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1268,12 +1272,15 @@ export interface ApiHeaderHeader extends Schema.SingleType {
     singularName: 'header';
     pluralName: 'headers';
     displayName: 'Header';
+    description: '';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
     logo: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    content: Attribute.Component<'shared.content'>;
+    cta: Attribute.Component<'shared.button', true>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

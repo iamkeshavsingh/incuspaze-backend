@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_social_medias",
+  "info": {
+    "displayName": "Social Media"
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.icon-title"
+    }
+  }
+}

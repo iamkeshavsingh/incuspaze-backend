@@ -16,20 +16,6 @@ module.exports = () => ({
       requestTransforms: {
         wrapBodyWithDataKey: true,
       },
-      contentTypeFilter: {
-        mode: "allow",
-        uids: {
-          "api::article.article": true,
-          "api::category.category": {
-            GET: true,
-          },
-        },
-      },
-      plugins: {
-        ids: {
-          slugify: true,
-        },
-      },
     },
   },
 });

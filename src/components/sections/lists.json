@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_sections_lists",
+  "info": {
+    "displayName": "Lists"
+  },
+  "options": {},
+  "attributes": {
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title"
+    }
+  }
+}
