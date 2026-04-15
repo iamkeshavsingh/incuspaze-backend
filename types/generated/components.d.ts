@@ -1,9 +1,9 @@
-import type { Schema, Attribute } from '@strapi/strapi';
+import type { Schema, Attribute } from "@strapi/strapi";
 
 export interface SharedTitle extends Schema.Component {
-  collectionName: 'components_shared_titles';
+  collectionName: "components_shared_titles";
   info: {
-    displayName: 'Title';
+    displayName: "Title";
   };
   attributes: {
     title: Attribute.String;
@@ -11,21 +11,21 @@ export interface SharedTitle extends Schema.Component {
 }
 
 export interface SharedSocialMedia extends Schema.Component {
-  collectionName: 'components_shared_social_medias';
+  collectionName: "components_shared_social_medias";
   info: {
-    displayName: 'Social Media';
-    description: '';
+    displayName: "Social Media";
+    description: "";
   };
   attributes: {
-    media: Attribute.Component<'shared.icon-title', true>;
+    media: Attribute.Component<"shared.icon-title", true>;
   };
 }
 
 export interface SharedSeo extends Schema.Component {
-  collectionName: 'components_shared_seos';
+  collectionName: "components_shared_seos";
   info: {
-    displayName: 'seo';
-    icon: 'search';
+    displayName: "seo";
+    icon: "search";
   };
   attributes: {
     metaTitle: Attribute.String &
@@ -39,9 +39,9 @@ export interface SharedSeo extends Schema.Component {
         minLength: 50;
         maxLength: 160;
       }>;
-    metaImage: Attribute.Media<'images' | 'files' | 'videos'> &
+    metaImage: Attribute.Media<"images" | "files" | "videos"> &
       Attribute.Required;
-    metaSocial: Attribute.Component<'shared.meta-social', true>;
+    metaSocial: Attribute.Component<"shared.meta-social", true>;
     keywords: Attribute.Text;
     metaRobots: Attribute.String;
     structuredData: Attribute.JSON;
@@ -51,13 +51,13 @@ export interface SharedSeo extends Schema.Component {
 }
 
 export interface SharedMetaSocial extends Schema.Component {
-  collectionName: 'components_shared_meta_socials';
+  collectionName: "components_shared_meta_socials";
   info: {
-    displayName: 'metaSocial';
-    icon: 'project-diagram';
+    displayName: "metaSocial";
+    icon: "project-diagram";
   };
   attributes: {
-    socialNetwork: Attribute.Enumeration<['Facebook', 'Twitter']> &
+    socialNetwork: Attribute.Enumeration<["Facebook", "Twitter"]> &
       Attribute.Required;
     title: Attribute.String &
       Attribute.Required &
@@ -69,41 +69,41 @@ export interface SharedMetaSocial extends Schema.Component {
       Attribute.SetMinMaxLength<{
         maxLength: 65;
       }>;
-    image: Attribute.Media<'images' | 'files' | 'videos'>;
+    image: Attribute.Media<"images" | "files" | "videos">;
   };
 }
 
 export interface SharedImageTitle extends Schema.Component {
-  collectionName: 'components_shared_image_titles';
+  collectionName: "components_shared_image_titles";
   info: {
-    displayName: 'ImageTitle';
-    description: '';
+    displayName: "ImageTitle";
+    description: "";
   };
   attributes: {
     title: Attribute.String;
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    image: Attribute.Media<"images" | "files" | "videos" | "audios">;
     image_url: Attribute.Text;
   };
 }
 
 export interface SharedIconTitle extends Schema.Component {
-  collectionName: 'components_shared_icon_titles';
+  collectionName: "components_shared_icon_titles";
   info: {
-    displayName: 'IconTitle';
-    description: '';
+    displayName: "IconTitle";
+    description: "";
   };
   attributes: {
     title: Attribute.String;
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    image: Attribute.Media<"images" | "files" | "videos" | "audios">;
     link_url: Attribute.String;
     image_url: Attribute.Text;
   };
 }
 
 export interface SharedFaq extends Schema.Component {
-  collectionName: 'components_shared_faqs';
+  collectionName: "components_shared_faqs";
   info: {
-    displayName: 'FAQ';
+    displayName: "FAQ";
   };
   attributes: {
     title: Attribute.String;
@@ -112,9 +112,9 @@ export interface SharedFaq extends Schema.Component {
 }
 
 export interface SharedContent extends Schema.Component {
-  collectionName: 'components_shared_contents';
+  collectionName: "components_shared_contents";
   info: {
-    displayName: 'content';
+    displayName: "content";
   };
   attributes: {
     title: Attribute.String;
@@ -124,110 +124,110 @@ export interface SharedContent extends Schema.Component {
 }
 
 export interface SharedButton extends Schema.Component {
-  collectionName: 'components_shared_buttons';
+  collectionName: "components_shared_buttons";
   info: {
-    displayName: 'button';
+    displayName: "button";
   };
   attributes: {
     cta_text: Attribute.String;
     cta_url: Attribute.String;
-    icon: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    icon: Attribute.Media<"images" | "files" | "videos" | "audios">;
   };
 }
 
 export interface SectionsSection extends Schema.Component {
-  collectionName: 'components_sections_sections';
+  collectionName: "components_sections_sections";
   info: {
-    displayName: 'Section';
-    description: '';
+    displayName: "Section";
+    description: "";
   };
   attributes: {
     title: Attribute.String;
-    content: Attribute.Component<'shared.content'>;
-    images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
-    buttons: Attribute.Component<'shared.button', true>;
+    content: Attribute.Component<"shared.content">;
+    images: Attribute.Media<"images" | "files" | "videos" | "audios", true>;
+    buttons: Attribute.Component<"shared.button", true>;
     image_url: Attribute.Text;
   };
 }
 
 export interface SectionsRepetableCards extends Schema.Component {
-  collectionName: 'components_sections_repetable_cards';
+  collectionName: "components_sections_repetable_cards";
   info: {
-    displayName: 'Repetable Cards';
-    description: '';
+    displayName: "Repetable Cards";
+    description: "";
   };
   attributes: {
-    content: Attribute.Component<'shared.content'>;
-    cards: Attribute.Component<'sections.basic-card', true>;
+    content: Attribute.Component<"shared.content">;
+    cards: Attribute.Component<"sections.basic-card", true>;
   };
 }
 
 export interface SectionsLists extends Schema.Component {
-  collectionName: 'components_sections_lists';
+  collectionName: "components_sections_lists";
   info: {
-    displayName: 'Lists';
+    displayName: "Lists";
   };
   attributes: {
-    list: Attribute.Component<'shared.title', true>;
+    list: Attribute.Component<"shared.title", true>;
   };
 }
 
 export interface SectionsHero extends Schema.Component {
-  collectionName: 'components_sections_heroes';
+  collectionName: "components_sections_heroes";
   info: {
-    displayName: 'Hero';
-    description: '';
+    displayName: "Hero";
+    description: "";
   };
   attributes: {
     title: Attribute.String;
-    content: Attribute.Component<'shared.content'>;
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    buttons: Attribute.Component<'shared.button', true>;
+    content: Attribute.Component<"shared.content">;
+    image: Attribute.Media<"images" | "files" | "videos" | "audios">;
+    buttons: Attribute.Component<"shared.button", true>;
     image_url: Attribute.Text;
   };
 }
 
 export interface SectionsGallery extends Schema.Component {
-  collectionName: 'components_sections_galleries';
+  collectionName: "components_sections_galleries";
   info: {
-    displayName: 'Gallery';
+    displayName: "Gallery";
   };
   attributes: {
-    content: Attribute.Component<'shared.content'>;
-    images: Attribute.Media<'images' | 'files' | 'videos' | 'audios', true>;
+    content: Attribute.Component<"shared.content">;
+    images: Attribute.Media<"images" | "files" | "videos" | "audios", true>;
   };
 }
 
 export interface SectionsFaQs extends Schema.Component {
-  collectionName: 'components_sections_fa_qs';
+  collectionName: "components_sections_fa_qs";
   info: {
-    displayName: 'FAQs';
+    displayName: "FAQs";
   };
   attributes: {
-    content: Attribute.Component<'shared.content'>;
-    faqs: Attribute.Component<'shared.faq', true>;
+    content: Attribute.Component<"shared.content">;
+    faqs: Attribute.Component<"shared.faq", true>;
   };
 }
 
 export interface SectionsCertifications extends Schema.Component {
-  collectionName: 'components_sections_certifications';
+  collectionName: "components_sections_certifications";
   info: {
-    displayName: 'Certifications';
+    displayName: "Certifications";
   };
   attributes: {
-    certificate: Attribute.Component<'shared.image-title', true>;
+    certificate: Attribute.Component<"shared.image-title", true>;
   };
 }
 
 export interface SectionsBasicCard extends Schema.Component {
-  collectionName: 'components_sections_basic_cards';
+  collectionName: "components_sections_basic_cards";
   info: {
-    displayName: 'Basic Card';
-    description: '';
+    displayName: "Basic Card";
+    description: "";
   };
   attributes: {
-    image: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
-    activeImage: Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
+    image: Attribute.Media<"images" | "files" | "videos" | "audios">;
+    activeImage: Attribute.Media<"images" | "files" | "videos" | "audios">;
     title: Attribute.String;
     description: Attribute.Text;
     content: Attribute.Text;
@@ -237,26 +237,26 @@ export interface SectionsBasicCard extends Schema.Component {
   };
 }
 
-declare module '@strapi/types' {
+declare module "@strapi/types" {
   export module Shared {
     export interface Components {
-      'shared.title': SharedTitle;
-      'shared.social-media': SharedSocialMedia;
-      'shared.seo': SharedSeo;
-      'shared.meta-social': SharedMetaSocial;
-      'shared.image-title': SharedImageTitle;
-      'shared.icon-title': SharedIconTitle;
-      'shared.faq': SharedFaq;
-      'shared.content': SharedContent;
-      'shared.button': SharedButton;
-      'sections.section': SectionsSection;
-      'sections.repetable-cards': SectionsRepetableCards;
-      'sections.lists': SectionsLists;
-      'sections.hero': SectionsHero;
-      'sections.gallery': SectionsGallery;
-      'sections.fa-qs': SectionsFaQs;
-      'sections.certifications': SectionsCertifications;
-      'sections.basic-card': SectionsBasicCard;
+      "shared.title": SharedTitle;
+      "shared.social-media": SharedSocialMedia;
+      "shared.seo": SharedSeo;
+      "shared.meta-social": SharedMetaSocial;
+      "shared.image-title": SharedImageTitle;
+      "shared.icon-title": SharedIconTitle;
+      "shared.faq": SharedFaq;
+      "shared.content": SharedContent;
+      "shared.button": SharedButton;
+      "sections.section": SectionsSection;
+      "sections.repetable-cards": SectionsRepetableCards;
+      "sections.lists": SectionsLists;
+      "sections.hero": SectionsHero;
+      "sections.gallery": SectionsGallery;
+      "sections.fa-qs": SectionsFaQs;
+      "sections.certifications": SectionsCertifications;
+      "sections.basic-card": SectionsBasicCard;
     }
   }
 }
