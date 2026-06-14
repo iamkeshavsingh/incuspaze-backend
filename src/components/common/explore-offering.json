@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_common_explore_offerings",
+  "info": {
+    "displayName": "Explore Offering",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-cmn-exp-ofrng"
+    }
+  }
+}

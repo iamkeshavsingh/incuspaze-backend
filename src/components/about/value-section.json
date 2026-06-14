@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_value_sections",
+  "info": {
+    "displayName": "Value Section"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "value": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-text-desc"
+    }
+  }
+}

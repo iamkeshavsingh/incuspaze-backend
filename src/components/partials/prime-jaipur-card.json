@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_partials_prime_jaipur_cards",
+  "info": {
+    "displayName": "prime.jaipur.card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "distance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.title"
+    },
+    "amenities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    }
+  }
+}

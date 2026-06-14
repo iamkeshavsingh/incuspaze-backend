@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_career_apply_forms",
+  "info": {
+    "displayName": "Apply Form"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "imageBg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.card-text-desc"
+    }
+  }
+}

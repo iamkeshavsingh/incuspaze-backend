@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_teams",
+  "info": {
+    "displayName": "Team",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "members": {
+      "displayName": "teams.about",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.teams-about"
+    },
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    }
+  }
+}

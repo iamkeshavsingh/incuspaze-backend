@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_detail_templates",
+  "info": {
+    "singularName": "property-detail-template",
+    "pluralName": "property-detail-templates",
+    "displayName": "Property Detail Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "common.header",
+        "common.footer",
+        "common.footer-marque",
+        "property-detail.productive",
+        "property-detail.other-property",
+        "property-detail.connected",
+        "property-detail.banner",
+        "solution.why-choose",
+        "common.explore-offering",
+        "common.enterprise",
+        "common.contact",
+        "common.faq"
+      ]
+    }
+  }
+}

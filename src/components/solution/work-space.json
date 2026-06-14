@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_solution_work_spaces",
+  "info": {
+    "displayName": "Work Space"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    }
+  }
+}

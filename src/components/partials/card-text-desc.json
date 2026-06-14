@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_partials_card_text_descs",
+  "info": {
+    "displayName": "Card.Text.Desc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

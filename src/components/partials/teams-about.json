@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_partials_teams_abouts",
+  "info": {
+    "displayName": "teams.about",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "userImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "linkedInUrl": {
+      "type": "string"
+    }
+  }
+}

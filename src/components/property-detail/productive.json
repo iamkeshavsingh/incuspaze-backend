@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_property_detail_productives",
+  "info": {
+    "displayName": "Productive"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "amenitiesTitle": {
+      "type": "string"
+    },
+    "amenitiesDescription": {
+      "type": "text"
+    },
+    "amenities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_contact_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "breadcrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.cta"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-text-desc"
+    }
+  }
+}

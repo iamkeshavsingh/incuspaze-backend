@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_gurugram_lp_work_stations",
+  "info": {
+    "displayName": "Work Station"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "officedata": {
+      "displayName": "card.wprk.lp",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.card-wprk-lp"
+    }
+  }
+}

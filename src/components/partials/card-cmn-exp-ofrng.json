@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_partials_card_cmn_exp_ofrngs",
+  "info": {
+    "displayName": "Card.Cmn.ExpOfrng"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link": {
+      "type": "string"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

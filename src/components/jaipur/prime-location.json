@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_jaipur_prime_locations",
+  "info": {
+    "displayName": "Prime Location"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "location": {
+      "displayName": "prime.jaipur.card",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.prime-jaipur-card"
+    }
+  }
+}

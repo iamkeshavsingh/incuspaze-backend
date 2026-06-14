@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_career_banners",
+  "info": {
+    "displayName": "Banner",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "breadcrumb": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.cta"
+    },
+    "tile": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaJoin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    },
+    "ctaKnow": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    },
+    "titleMobile": {
+      "type": "string"
+    }
+  }
+}

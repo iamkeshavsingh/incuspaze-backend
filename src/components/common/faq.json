@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_common_faqs",
+  "info": {
+    "displayName": "Faq"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "featureText": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.faq"
+    }
+  }
+}

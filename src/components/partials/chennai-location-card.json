@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_partials_chennai_location_cards",
+  "info": {
+    "displayName": "chennai.location.card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

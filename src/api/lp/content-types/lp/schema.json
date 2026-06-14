@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lps",
+  "info": {
+    "singularName": "lp",
+    "pluralName": "lps",
+    "displayName": "Lp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "page_template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lp-template.lp-template"
+    }
+  }
+}

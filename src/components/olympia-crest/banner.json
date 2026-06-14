@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_olympia_crest_banners",
+  "info": {
+    "displayName": "Banner"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "subHeading1": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "subHeading2": {
+      "type": "string"
+    },
+    "info1": {
+      "type": "string"
+    },
+    "info2": {
+      "type": "string"
+    },
+    "desktopImages": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "mobileImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

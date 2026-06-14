@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_partner_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formSubtitle": {
+      "type": "string"
+    },
+    "detialTitle": {
+      "type": "string"
+    },
+    "card": {
+      "displayName": "contact.card.name.desina.email.phone",
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.contact-card-name-desina-email-phone"
+    }
+  }
+}

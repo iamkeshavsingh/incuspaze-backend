@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_about_zoho_recruits",
+  "info": {
+    "displayName": "Zoho Recruit"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    }
+  }
+}

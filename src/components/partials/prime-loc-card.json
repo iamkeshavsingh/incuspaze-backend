@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_partials_prime_loc_cards",
+  "info": {
+    "displayName": "prime.loc.card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "distance": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    }
+  }
+}

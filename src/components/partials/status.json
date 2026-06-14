@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_partials_statuses",
+  "info": {
+    "displayName": "Status"
+  },
+  "options": {},
+  "attributes": {
+    "visible": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_templates",
+  "info": {
+    "singularName": "property-template",
+    "pluralName": "property-templates",
+    "displayName": "Property Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "common.footer",
+        "common.footer-marque",
+        "common.header",
+        "property.work-space",
+        "property.why-choose",
+        "property.other-property",
+        "property.banner",
+        "common.contact"
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_common_prime_locations",
+  "info": {
+    "displayName": "Prime Location"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "iframe": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "displayName": "prime.loc.card",
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.prime-loc-card"
+    }
+  }
+}

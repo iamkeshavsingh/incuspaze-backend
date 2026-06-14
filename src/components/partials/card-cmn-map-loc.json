@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_partials_card_cmn_map_locs",
+  "info": {
+    "displayName": "Card.Cmn.MapLoc"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

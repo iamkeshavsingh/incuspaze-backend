@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_common_card_wprk_lps",
+  "info": {
+    "displayName": "card.wprk.lp"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "workstation": {
+      "type": "string"
+    },
+    "cabin": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "amenities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    }
+  }
+}

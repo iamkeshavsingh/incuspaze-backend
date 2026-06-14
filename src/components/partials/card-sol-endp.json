@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_partials_card_sol_endps",
+  "info": {
+    "displayName": "Card.Sol.Endp"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

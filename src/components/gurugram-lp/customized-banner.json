@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_gurugram_lp_customized_banners",
+  "info": {
+    "displayName": "Customized Banner"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    }
+  }
+}

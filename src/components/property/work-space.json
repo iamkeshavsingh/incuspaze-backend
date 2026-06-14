@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_property_work_spaces",
+  "info": {
+    "displayName": "Work Space",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-text"
+    },
+    "property_details": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::property-detail.property-detail"
+    },
+    "formTitle": {
+      "type": "string"
+    },
+    "formSubtitle": {
+      "type": "string"
+    }
+  }
+}

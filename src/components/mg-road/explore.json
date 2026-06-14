@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_mg_road_explores",
+  "info": {
+    "displayName": "Explore"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "locationData": {
+      "displayName": "explore.mg.card",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.explore-mg-card"
+    }
+  }
+}

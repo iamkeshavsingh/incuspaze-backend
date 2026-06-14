@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_common_footer_lps",
+  "info": {
+    "displayName": "Footer Lp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleFooter": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-text-desc"
+    },
+    "titleFaq": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    },
+    "titleAny": {
+      "type": "string"
+    },
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    }
+  }
+}

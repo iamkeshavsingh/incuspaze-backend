@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_partials_card_jour_abouts",
+  "info": {
+    "displayName": "card.jour.about"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subHeading1": {
+      "type": "text"
+    },
+    "subHeading2": {
+      "type": "text"
+    },
+    "subHeading3": {
+      "type": "text"
+    },
+    "subHeading4": {
+      "type": "text"
+    }
+  }
+}

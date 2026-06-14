@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_partner_how_it_works",
+  "info": {
+    "displayName": "How it work",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "partner.icon.text.img",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.partner-icon-text-img"
+    }
+  }
+}

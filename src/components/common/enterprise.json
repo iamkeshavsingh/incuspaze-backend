@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_common_enterprises",
+  "info": {
+    "displayName": "Enterprise",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ctaExplore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    },
+    "ctaContact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    },
+    "bgImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

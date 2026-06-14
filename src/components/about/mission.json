@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_about_missions",
+  "info": {
+    "displayName": "Mission"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "Mission": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.card-img-title-des"
+    },
+    "Years": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.card-img-text"
+    },
+    "Vision": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.card-img-title-des"
+    }
+  }
+}

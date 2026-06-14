@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_partials_cliental_info_lps",
+  "info": {
+    "displayName": "cliental.info.lp"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "richtext"
+    }
+  }
+}

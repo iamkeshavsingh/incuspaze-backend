@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "footer_marquees",
+  "info": {
+    "singularName": "footer-marquee",
+    "pluralName": "footer-marquees",
+    "displayName": "Footer Marquee",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "marquee": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-cmn-ftr-mrq"
+    }
+  }
+}

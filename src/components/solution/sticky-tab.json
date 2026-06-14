@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_solution_sticky_tabs",
+  "info": {
+    "displayName": "Sticky Tab"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "tabs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.cta"
+    }
+  }
+}

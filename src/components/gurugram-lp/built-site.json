@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_gurugram_lp_built_sites",
+  "info": {
+    "displayName": "Built Site"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

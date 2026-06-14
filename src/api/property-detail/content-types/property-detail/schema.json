@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "property_details",
+  "info": {
+    "singularName": "property-detail",
+    "pluralName": "property-details",
+    "displayName": "Property Detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "page_template": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::property-detail-template.property-detail-template"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aminities": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    },
+    "rating": {
+      "type": "decimal"
+    },
+    "address": {
+      "type": "text"
+    },
+    "area": {
+      "type": "biginteger"
+    },
+    "seat": {
+      "type": "biginteger"
+    },
+    "location": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::location.location"
+    },
+    "office_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::office-type.office-type"
+    }
+  }
+}

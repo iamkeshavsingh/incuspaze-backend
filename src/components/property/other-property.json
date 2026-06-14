@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_property_other_properties",
+  "info": {
+    "displayName": "Other Property"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "audience": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::navigation.audience"
+    }
+  }
+}

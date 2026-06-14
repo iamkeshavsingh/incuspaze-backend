@@ -4,7 +4,8 @@
   "info": {
     "singularName": "template-page",
     "pluralName": "template-pages",
-    "displayName": "Template Page"
+    "displayName": "Template Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,6 +18,53 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "home.what-we",
+        "home.sub-marque",
+        "home.cxo-banner",
+        "home.brands",
+        "home.banner",
+        "common.testimonial",
+        "common.news-letter",
+        "common.map-location",
+        "common.insights",
+        "common.footer-marque",
+        "common.explore-offering",
+        "common.enterprise",
+        "common.contact",
+        "contact.contact-form",
+        "contact.banner",
+        "common.faq",
+        "resource.banner",
+        "common.header",
+        "common.footer",
+        "career.benefit",
+        "career.banner",
+        "career.apply-form",
+        "common.life-at-incuspaze",
+        "static.terms-condition",
+        "static.privacy",
+        "about.banner",
+        "about.mission",
+        "about.quote",
+        "about.team",
+        "about.value-section",
+        "about.achievement",
+        "about.founder-quote",
+        "about.journey",
+        "common.work-with-us-lp",
+        "common.testimonial-lp",
+        "common.gallery-lp",
+        "common.footer-lp",
+        "common.clientale-lp",
+        "common.explore-lp",
+        "common.header-lp",
+        "about.zoho-recruit",
+        "olympia-crest.prime-location"
+      ]
     }
   }
 }

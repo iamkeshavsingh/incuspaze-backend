@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_static_terms_conditions",
+  "info": {
+    "displayName": "Terms Condition",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

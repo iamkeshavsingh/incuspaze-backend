@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_common_floating_ctas",
+  "info": {
+    "displayName": "Floating Cta"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

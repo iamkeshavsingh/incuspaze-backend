@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_partials_card_texts",
+  "info": {
+    "displayName": "Card.Text"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

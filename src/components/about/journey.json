@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_about_journeys",
+  "info": {
+    "displayName": "Journey"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "panel": {
+      "displayName": "card.jour.about",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-jour-about"
+    }
+  }
+}

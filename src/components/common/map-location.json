@@ -1,0 +1,55 @@
+{
+  "collectionName": "components_common_map_locations",
+  "info": {
+    "displayName": "Map Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-cmn-map-loc"
+    },
+    "pointsDesktop": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-cmn-map-loc-data"
+    },
+    "pointsMobile": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-cmn-map-loc-data"
+    },
+    "bgImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "bgImageMobile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

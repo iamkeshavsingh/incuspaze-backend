@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_olympia_crest_prime_locations",
+  "info": {
+    "displayName": "Prime Location"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "iframe": {
+      "type": "text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "locations": {
+      "displayName": "chennai.location.card",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.chennai-location-card"
+    }
+  }
+}

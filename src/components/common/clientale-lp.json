@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_common_clientale_lps",
+  "info": {
+    "displayName": "Clientale Lp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "info": {
+      "displayName": "cliental.info.lp",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.cliental-info-lp"
+    }
+  }
+}

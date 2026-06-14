@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "office_types",
+  "info": {
+    "singularName": "office-type",
+    "pluralName": "office-types",
+    "displayName": "Office Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

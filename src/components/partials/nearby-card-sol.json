@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_partials_nearby_card_sols",
+  "info": {
+    "displayName": "nearby.card.sol"
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "seat": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

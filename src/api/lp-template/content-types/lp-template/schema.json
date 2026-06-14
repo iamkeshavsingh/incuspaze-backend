@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "lp_templates",
+  "info": {
+    "singularName": "lp-template",
+    "pluralName": "lp-templates",
+    "displayName": "Lp Template",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sections": {
+      "type": "dynamiczone",
+      "components": [
+        "common.footer-lp",
+        "common.clientale-lp",
+        "common.gallery-lp",
+        "common.testimonial-lp",
+        "common.work-with-us-lp",
+        "common.explore-lp",
+        "common.header-lp",
+        "common.floating-cta",
+        "bangalore-lp.banner",
+        "bangalore-lp.banner-step",
+        "home.sub-marque",
+        "common.enterprise",
+        "gurugram-lp.work-station",
+        "gurugram-lp.customized-banner",
+        "gurugram-lp.built-site",
+        "gurugram-lp.banner",
+        "mg-road.explore",
+        "mg-road.banner",
+        "common.prime-location",
+        "jaipur.prime-location",
+        "jaipur.banner",
+        "olympia-crest.requirement",
+        "olympia-crest.banner",
+        "olympia-crest.prime-location"
+      ]
+    }
+  }
+}

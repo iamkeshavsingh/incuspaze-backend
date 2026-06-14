@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_olympia_crest_requirements",
+  "info": {
+    "displayName": "Requirement"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cardTitle": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "officedata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-title-des"
+    }
+  }
+}

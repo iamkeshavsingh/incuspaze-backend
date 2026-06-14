@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_solution_why_chooses",
+  "info": {
+    "displayName": "Why Choose",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-sol-why-cho"
+    }
+  }
+}

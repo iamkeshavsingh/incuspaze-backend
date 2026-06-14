@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_property_partnership_opportunities",
+  "info": {
+    "displayName": "Partnership opportunities"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cards": {
+      "displayName": "partner.text.li.img",
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.partner-text-li-img"
+    }
+  }
+}

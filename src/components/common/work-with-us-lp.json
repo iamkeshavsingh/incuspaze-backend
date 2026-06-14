@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_common_work_with_us_lps",
+  "info": {
+    "displayName": "Work With Us Lp",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "title": {
+      "type": "string"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    }
+  }
+}

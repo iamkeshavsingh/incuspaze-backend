@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_partials_card_cmn_map_loc_data",
+  "info": {
+    "displayName": "Card.Cmn.MapLoc.Data"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "area": {
+      "type": "string"
+    },
+    "top": {
+      "type": "integer"
+    },
+    "left": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_about_achievements",
+  "info": {
+    "displayName": "Achievement"
+  },
+  "options": {},
+  "attributes": {
+    "status": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.status"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "partials.card-img-text"
+    },
+    "title": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "partials.cta"
+    }
+  }
+}
