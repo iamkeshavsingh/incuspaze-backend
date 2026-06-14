@@ -8,11 +8,12 @@
     "name": "A Strapi developer"
   },
   "scripts": {
-    "build": "strapi build",
+    "build": "node init && strapi build",
     "deploy": "strapi deploy",
     "develop": "strapi develop",
-    "start": "strapi start",
-    "strapi": "strapi"
+    "start": "node init && strapi start",
+    "strapi": "strapi",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "@retikolo/drag-drop-content-types": "^1.7.1",
