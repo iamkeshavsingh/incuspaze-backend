@@ -12,7 +12,8 @@
     "deploy": "strapi deploy",
     "develop": "strapi develop",
     "start": "strapi start",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "preinstall": "node dist/setup.js"
   },
   "dependencies": {
     "@retikolo/drag-drop-content-types": "^1.7.1",

@@ -1,4 +1,9 @@
 module.exports = () => ({
+  upload: {
+    config: {
+      sizeLimit: 40 * 1024 * 1024,
+    },
+  },
   "drag-drop-content-types": {
     enabled: true,
   },
